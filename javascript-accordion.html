@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Javascript Accordion for FAQs</title>
+    <meta name="description" content="Javascript Accordion FAQ">
+    <meta name="author" content="Don Cooper">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <h1>Simple Javascript Accordion</h1>
+
+    <div class="accordion">
+
+      <button class="acc-question" id="a" onclick="toggle(a, 0)">First question?</button>
+      <div class="acc-content" id="0">
+        <p>
+          First answer. Bacon ipsum dolor amet pork pork chop porchetta, drumstick
+          t-bone pork loin filet mignon cow burgdoggen alcatra ribeye kevin.
+          Prosciutto tri-tip bresaola, burgdoggen leberkas meatloaf kevin bacon
+          porchetta strip steak landjaeger. T-bone pastrami short ribs flank brisket
+          ribeye jowl, jerky pork chop bresaola doner turkey. Ribeye bacon pork loin
+          tenderloin sirloin, doner ground round beef alcatra tongue meatloaf sausage.
+        </p>
+      </div>
+
+      <button class="acc-question" id="b" onclick="toggle(b, 1)">Second question?</button>
+      <div class="acc-content" id="1">
+        <p>
+          Second answer. Spare ribs shoulder salami, bresaola alcatra porchetta chuck
+          brisket pork chop turkey strip steak pastrami ham hock. Andouille bresaola
+          bacon chicken shankle frankfurter sirloin porchetta pork jowl cupim landjaeger
+          t-bone brisket pig. Buffalo meatloaf tri-tip, pancetta jerky pork loin spare
+          ribs strip steak. Venison pig swine, short ribs rump meatloaf turkey tail
+          shoulder pork chop porchetta. Fatback ham swine pork chop. Ground round
+          capicola burgdoggen meatball, chuck drumstick jerky pork chop cow.
+        </p>
+      </div>
+
+      <button class="acc-question" id="c" onclick="toggle(c, 2)">Third question?</button>
+      <div class="acc-content" id="2">
+        <p>
+          Third answer. Bacon ipsum dolor amet meatloaf swine pork chop, pork belly
+          short ribs strip steak prosciutto jowl boudin tri-tip ribeye pork loin picanha
+          jerky. Turkey sirloin porchetta ham hock bresaola cupim chicken capicola tail
+          drumstick jowl strip steak hamburger. Fatback corned beef drumstick pig
+          tenderloin venison tail turducken rump. Turkey ball tip venison boudin pastrami.
+          Meatloaf frankfurter biltong jowl ground round. Ground round tongue corned beef
+          pork chop short ribs flank cupim ham.
+        </p>
+      </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+  </body>
+</html>
