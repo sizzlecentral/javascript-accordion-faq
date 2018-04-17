@@ -1,7 +1,11 @@
 # javascript-accordion-faq
 This is a simple javascript accordion for FAQs, feel free to employ it for business or personal use.
 
-Instructions:
+To test it out:
+
+1. Download the project and open the html file in your browser.
+
+Instructions for your project:
 
 1. Make sure the .css and .js files are linked properly to the html file you want the accordion for.
 2. Each button should have the class "acc-question", as well as a unique id.
